@@ -1,0 +1,76 @@
+h1 {
+  font-size: 60px;
+  color: red;
+  font-family: 'UnifrakturMaguntia', cursive;
+  text-align: center;
+}
+
+h2, h3, footer {
+	text-align: center;
+}
+
+img {
+	width: 300px;
+	float: left;
+}
+
+html {
+	color:#999999;
+	background-color:#0d0d0d;
+}
+
+
+@font-face {
+    font-family: 'UnifrakturMaguntia';
+    src: url('UnifrakturMaguntia.eot');
+    src:
+        url('UnifrakturMaguntia.ttf') format('truetype'),
+        url('UnifrakturMaguntia.svg#UnifrakturMaguntia') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    flex: 1;
+}
+
+.left {
+    background-color: #0d0d0d;
+    color: #white;
+}
+
+.right {
+    background-color: #0d0d0d;
+    color: #white;
+}
+
+.column {
+    float: left;
+}
+
