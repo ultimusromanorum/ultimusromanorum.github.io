@@ -74,3 +74,12 @@ nav li {
     float: left;
 }
 
+a {
+    color: blue;
+}
+a:hover {
+    color: green;
+}
+a:visited {
+    color: purple;
+}
